@@ -1,4 +1,4 @@
-package array
+package enum
 
 func RangeWeekTemp() int {
 	var weekTemp = [7]int{5, 4, 6, 8, 11, 9, 5}
