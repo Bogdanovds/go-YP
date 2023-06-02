@@ -1,7 +1,7 @@
 package main
 
 import (
-	rangevalues "example/hello/go/src/github.com/bogdanovds/go-YP/basics/compositeTypes/array/rangeValues"
+	rangevalues "github.com/bogdanovds/go-YP/basics/compositeTypes/array/rangeValues"
 	"fmt"
 )
 
