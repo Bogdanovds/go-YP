@@ -1,11 +1,13 @@
 package main
 
 import (
-	enumFor "github.com/bogdanovds/go-YP/basics/compositeTypes/array/enum"
 	"fmt"
+	enumFor "github.com/bogdanovds/go-YP/basics/compositeTypes/array/enum"
+	enumRange "github.com/bogdanovds/go-YP/basics/compositeTypes/array/enum"
 )
 
 func main() {
 	a := enumFor.RangeWeekTemp()
-	fmt.Println("Среднее значение температуры воздуха за неделю:", a)
+	b := enumRange.EnumRange()
+	fmt.Println("Среднее значение температуры воздуха за неделю:", a, b)
 }
