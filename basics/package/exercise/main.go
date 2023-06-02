@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"gitlab.com/bogdanovds/YP/package/exercise/mathslice"
+	"github.com/bogdanovds/go-YP/basics/package/exercise/mathslice"
 )
 
 func main()  {
