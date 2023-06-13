@@ -1,3 +1,4 @@
+// https://go.dev/doc/articles/wiki/
 package main
 
 import (
