@@ -4,7 +4,7 @@ import "fmt"
 
 func ConIntArray() {
 	nums := [...]int{1, 3, 2, 1}
-	var ans [2 * len(nums)]int
+	ans := make([]int, 2 * len(nums))
 	temp := 0
 
 	for i := 0; i < len(nums); i++ {
